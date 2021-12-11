@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--========== BOX ICONS ==========-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link href="/assets/css/all.css" rel="stylesheet"> <!--load all styles -->
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Ovi - Resume</title>
+    <link rel = "icon" href = 
+"assets/img/coding.png" 
+        type = "image/x-icon">
+</head>
+
+<body>
+    <!--========== HEADER ==========-->
+    <!--https://boxicons.com/?query=  -->
+    <header class=" l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav__logo">Sultanul Ovi</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">
+                            <i class='bx bx-home nav__icon'></i>Home
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#profile" class="nav__link">
+                            <i class='bx bx-user nav__icon'></i>Profile
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#education" class="nav__link">
+                            <i class='bx bx-book nav__icon' ></i>Education
+                            <!-- <i class='bx bxs-graduation' ></i>Education -->
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class='bx bx-code-alt nav__icon'></i>Skills
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#experience" class="nav__link">
+                            <!-- <i class='bx bx-briefcase-alt nav__icon'></i> -->
+                            <i class="fas fa-laptop-code" style="font-size:24px;"></i>
+                            Experience
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#certificates" class="nav__link">
+                            <i class='bx bx-award nav__icon'></i>Certificates
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#references" class="nav__link">
+                            <i class='bx bx-link-external nav__icon'></i>References
+                        </a>
+                    </li>
+                    <!-- <li class="nav__item">
+                        <a href="#references" class="nav__link">
+                            <i class='bx bx-link-external nav__icon'></i>References
+                        </a>
+                    </li> -->
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-grid-alt'></i>
+                <!-- <i class='bx bx-category'></i> -->
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main bd-container">
+        <!-- All elements within this div, is generated in PDF -->
+        <div class="resume" id="area-cv">
+            <div class="resume__left">
+                <!--========== HOME ==========-->
+                <section class="home" id="home">
+                    <div class="home__container section bd-grid">
+                        <div class="home__data bd-grid">
+                            <img src="assets/img/perfil.jpg" alt="" class="home__img">
+
+                            <h1 class="home__title">Md. Sultanul Islam <b>Ovi</b></h1>
+
+                            <h3 class="home__profession">A student of Computer Science</h3>
+
+                            <!-- Button to download your CV saved in the pdf folder. Available for mobile -->
+                            <div>
+                                <a download="" href="assets/pdf/ResumeCV.pdf" class="home__button-movil">Download</a>
+                                <!-- <a download="" href="assets/pdf/Md_Sultanul_Islam_Ovi_Resume.pdf" class="home__button-movil">Download</a> -->
+                            </div>
+                        </div>
+
+                        <div class="home__address bd-grid">
+                            <span class="home__information">
+                                <i class='bx bx-map home__icon'></i> 694/1, Mirpur 2, Dhaka 1216
+                            </span>
+
+                            <span class="home__information">
+                                <i class='bx bx-envelope home__icon'></i> sultanulislamovi@gmail.com
+                            </span>
+
+                            <span class="home__information">
+                                <i class='bx bx-phone home__icon'></i> (+880) 1737 777345
+                            </span>
+                        </div>
+
+                    </div>
+
+                    <!-- Theme change button -->
+                    <i class="bx bx-moon change-theme" title="Theme" id="theme-button"></i>
+
+                    <!-- Button to generate and download the pdf. Available for desktop. -->
+                    <i class="bx bx-download generate-pdf" title="Generate PDF" id="resume-button"></i>
+
+                </section>
+
+                <!--========== SOCIAL ==========-->
+                <section class="social section">
+                    <h2 class="section-title">SOCIAL</h2>
+
+                    <div class="social__container bd-grid">
+                        <a href="https://www.linkedin.com/in/sultanul-ovi-6b78291ba/" target="_black" class="social__link">
+                            <i class='bx bxl-linkedin-square social__icon'></i> @Sultanul_Ovi
+                        </a>
+
+                        <a href="https://github.com/sultanul-ovi" target="_black" class="social__link">
+                            <i class='bx bxl-github social__icon'></i> @Sultanul_Ovi
+                        </a>
+
+                        <!-- <a href="https://twitter.com/FrankSiret" target="_black" class="social__link">
+                            <i class='bx bxl-twitter social__icon'></i> @Sultanul_Ovi
+                        </a> -->
+                        <a href="https://www.facebook.com/sultanulovi36" target="_black" class="social__link">
+                            <i class='bx bxl-facebook social__icon'></i>@Sultanul_Ovi
+                        </a>
+
+                        <!-- <a href="https://stackoverflow.com/users/11278974/franksiret?tab=profile" target="_black"
+                            class="social__link">
+                            <i class='bx bxl-stack-overflow social__icon'></i> @FrankSiret
+                        </a>
+                        google scholar, research gate.
+                        <a href="https://www.instagram.com/franksiret/" target="_black" class="social__link">
+                            <i class='bx bxl-instagram social__icon'></i> @FrankSiret
+                        </a> -->
+                    </div>
+                </section>
+
+                <!--========== PROFILE ==========-->
+                <section class="profile section" id="profile">
+                    <h2 class="section-title">Profile</h2>
+
+                    <p class="profile__description">
+                        <!-- Bachelor's degree in Computer Science & <b>Full Stack Developer</b>.
+                        With good skills in mathematics, algorithms, and programming languages.
+                        I have several years of experience and achievements in the labor field.
+                        I like to improve my skills and I always push myself the most. -->
+                        An enthusiastic individual and always curious to learn new things, I have completed my <b>B.Sc in Computer Science
+                        Engineering(CSE)</b>, aiming to pursue a teaching career in this domain. Being organized and mathematically-minded, I aspire
+                        to work for an institution that offers career growth and chances to learn and improve my knowledge.
+                    </p>
+                </section>
+
+                <!--========== EDUCATION ==========-->
+                <section class="education section" id="education">
+                    <h2 class="section-title">Education</h2>
+
+                    <div class="education__container bd-grid">
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">B.Sc in CSE</h3>
+                                <span class="education__studies">Islamic University of Technology (IUT), Gazipur, Bangladesh</span>
+                                <span class="education__year">CGPA: 3.87 / 4.00</span>
+                                <span class="education__year">2017 - 2021</span>
+<!--                                 
+                                <ul class="education__list">
+                                    <li class="education__description">
+                                        <span class="education__circle"></span>
+                                        <div>Graduated with Gold Title and Scientific Merit Award.</div>
+                                    </li>
+                                    <li class="education__description">
+                                        <span class="education__circle"></span>
+                                        <div>Second best students from the 2019 class.</div>
+                                    </li>
+                                    <li class="education__description">
+                                        <span class="education__circle"></span>
+                                        <div>Several scientific events related to Computer Science.</div>
+                                    </li>
+                                    <li class="education__description">
+                                        <span class="education__circle"></span>
+                                        <div>Involved for 5 years in the ICPC Competitive Programming.
+
+                                            <a href="#" class="icpc__award-button" id="icpc__award-button">See
+                                                More</a>
+
+                                            <ul class="icpc__award" id="icpc__award">
+                                                <li class="icpc__award-item">
+                                                    <div class="icpc__time">
+                                                        <span class="icpc__rounder"></span>
+                                                        <span class="icpc__line"></span>
+                                                    </div>
+
+                                                    <div class="icpc__data bd-grid">
+                                                        <p class="icpc__award-title">2018 ICPC Caribbean Finals</p>
+                                                        <span class="icpc__award-date"
+                                                            title="Univeridad de las Ciencias Informáticas">Nov 2018 -
+                                                            UCI</span>
+                                                        <div class="icpc__award-data">
+                                                            <a target="_blank"
+                                                                href="https://icpc.baylor.edu/regionals/finder/caribfinals-2018/standings"
+                                                                class="icpc__award-place">
+                                                                14th place</a>
+                                                            <span class="icpc__award-team">Mirage Team</span>
+                                                        </div>
+                                                    </div>
+                                                </li>
+
+                                                <li class="icpc__award-item">
+                                                    <div class="icpc__time">
+                                                        <span class="icpc__rounder"></span>
+                                                        <span class="icpc__line"></span>
+                                                    </div>
+
+                                                    <div class="icpc__data bd-grid">
+                                                        <p class="icpc__award-title">6th ICPC Challenger <a
+                                                                target="_blank"
+                                                                href="https://coj-forum.uci.cu/viewtopic.php?f=105&t=3603">"Battles
+                                                                in the
+                                                                Caribbean II"</a></p>
+                                                        <span class="icpc__award-date"
+                                                            title="Univeridad de las Ciencias Informáticas">Nov 2018 -
+                                                            UCI</span>
+                                                        <div class="icpc__award-data">
+                                                            <span class="icpc__award-place color-gold">1st place</span>
+                                                            <span class="icpc__award-team">Mirage Team</span>
+                                                        </div>
+                                                    </div>
+                                                </li>
+
+                                                <li class="icpc__award-item">
+                                                    <div class="icpc__time">
+                                                        <span class="icpc__rounder"></span>
+                                                        <span class="icpc__line"></span>
+                                                    </div>
+
+                                                    <div class="icpc__data bd-grid">
+                                                        <p class="icpc__award-title">2017 ICPC Caribbean Finals</p>
+                                                        <span class="icpc__award-date"
+                                                            title="Univeridad Central Marta Abreu de las Villas">Nov
+                                                            2017 -
+                                                            UCLV</span>
+                                                        <div class="icpc__award-data">
+                                                            <a target="_blank"
+                                                                href="https://icpc.baylor.edu/regionals/finder/CF-2017/standings"
+                                                                class="icpc__award-place">
+                                                                13th place</a>
+                                                            <span class="icpc__award-team">A-SAO Team</span>
+                                                        </div>
+                                                    </div>
+                                                </li>
+
+                                                <li class="icpc__award-item">
+                                                    <div class="icpc__time">
+                                                        <span class="icpc__rounder"></span>
+                                                        <span class="icpc__line"></span>
+                                                    </div>
+
+                                                    <div class="icpc__data bd-grid">
+                                                        <p class="icpc__award-title">5th ICPC Challenger <a
+                                                                target="_blank"
+                                                                href="https://coj-forum.uci.cu/viewtopic.php?f=77&t=3300&p=5077">"Connect
+                                                                4"</a></p>
+                                                        <span class="icpc__award-date"
+                                                            title="Univeridad Central Marta Abreu de las Villas">Nov
+                                                            2017 -
+                                                            UCLV</span>
+                                                        <div class="icpc__award-data">
+                                                            <span class="icpc__award-place color-gold">1st place</span>
+                                                            <span class="icpc__award-team">A-SAO Team</span>
+                                                        </div>
+                                                    </div>
+                                                </li>
+
+                                                <li class="icpc__award-item">
+                                                    <div class="icpc__time">
+                                                        <span class="icpc__rounder"></span>
+                                                        <span class="icpc__line"></span>
+                                                    </div>
+
+                                                    <div class="icpc__data bd-grid">
+                                                        <p class="icpc__award-title">2015 ACM-ICPC Caribbean Finals</p>
+                                                        <span class="icpc__award-date"
+                                                            title="Univeridad de las Ciencias Informáticas">Nov 2015 -
+                                                            UCI</span>
+                                                        <div class="icpc__award-data">
+                                                            <a target="_blank"
+                                                                href="https://icpc.baylor.edu/regionals/finder/CF-2015/standings"
+                                                                class="icpc__award-place">
+                                                                20th place</a>
+                                                            <span class="icpc__award-team">A-SAO Team</span>
+                                                        </div>
+                                                    </div>
+                                                </li>
+
+                                                <li class="icpc__award-item">
+                                                    <div class="icpc__time">
+                                                        <span class="icpc__rounder"></span>
+                                                        <span class="icpc__line"></span>
+                                                    </div>
+
+                                                    <div class="icpc__data bd-grid">
+                                                        <p class="icpc__award-title">2014 ACM-ICPC Caribbean Finals</p>
+                                                        <span class="icpc__award-date"
+                                                            title="Univeridad de las Ciencias Informáticas">Nov 2014 -
+                                                            UCI</span>
+                                                        <div class="icpc__award-data">
+                                                            <a target="_blank"
+                                                                href="https://icpc.baylor.edu/regionals/finder/CF-2014/standings"
+                                                                class="icpc__award-place">
+                                                                34th place</a>
+                                                            <span class="icpc__award-team">A-SAO Team</span>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                    </li>
+                                    <li class="education__description">
+                                        <span class="education__circle"></span>
+                                        <div>Degree Thesis in the field of Information Retrieval.</div>
+                                    </li>
+                                </ul> -->
+                            </div>
+
+                        </div>
+
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+                        <div class="education__data bd-grid">
+                            <h3 class="education__title">HSC in Science</h3>
+                            <span class="education__studies">New Govt. Degree College, Rajshahi, Bangladesh</span>
+                            <span class="education__year">GPA: 5.00 / 5.00
+                            </span>
+                            <span class="education__year">June 2014 - May 2016</span>
+                        </div>
+                    </div>
+                    <div class="education__content">
+                        <div class="education__time">
+                            <span class="education__rounder"></span>
+                            <span class="education__line"></span>
+                        </div>
+                    <div class="education__data bd-grid">
+                        <h3 class="education__title">SSC in Science</h3>
+                        <span class="education__studies">Rajshahi Collegiate School, Rajshahi, Bangladesh</span>
+                        <span class="education__year">GPA: 5.00 / 5.00
+                        </span>
+                        <span class="education__year">January 2012 - February 2014</span>
+                    </div>
+                </div>
+                    </div>
+                </section>
+
+
+                <!--========== SKILLS  ==========-->
+                <section class="skills section" id="skills">
+                    <h2 class="section-title">Skills</h2>
+
+                    <div class="skills__content bd-grid">
+                        <ul class="skills__data">
+                            <li class="skills__name">
+                                <span class="skills_circle"></span> C/C++, Java, Python, JavaScript
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills_circle"></span> MySQL, Oracle, MongoDB
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills_circle"></span> RYU(SDN), Scikit-Learn, TensorFlow
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills_circle"></span> Packet Tracer, GNS3, Wireshark
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills_circle"></span> AWS, Microsoft Azure
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills_circle"></span> Mininet
+                            </li>
+                        </ul>
+
+                    </div>
+                </section>
+                <!--========== INTERESTS ==========-->
+                <section class="interests section">
+                    <h2 class="section-title">Research Interests</h2>
+
+                    <div class="interests__container bd-grid">
+                        <div class="interests__content">
+                            <i class="bx bx-headphone interests__icon"></i>
+                            <span class="interests__name">Music</span>
+                        </div>
+
+                        <div class="interests__content">
+                            <i class="bx bx-coffee interests__icon"></i>
+                            <span class="interests__name">Cofee</span>
+                        </div>
+
+                        <div class="interests__content">
+                            <i class="bx bxs-plane-alt interests__icon"></i>
+                            <span class="interests__name">Travel</span>
+                        </div>
+
+                        <div class="interests__content">
+                            <i class="bx bx-book interests__icon"></i>
+                            <span class="interests__name">Read</span>
+                        </div>
+
+                        <div class="interests__content">
+                            <i class='bx bx-pyramid interests__icon'></i>
+                            <span class="interests__name">Origami</span>
+                        </div>
+
+                    </div>
+                </section>
+            </div>
+
+            <div class="resume__right">
+                <!--========== EXPERIENCE ==========-->
+                <section class="experience section" id="experience">
+                    <h2 class="section-title">Experience</h2>
+
+                    <div class="experience__container bd-grid">
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Lecturer, CSE</h3>
+                                <span class="experience__company">June 2021 - Present | Green University of Bangladesh</span>
+                                <div class="experience__technologies">
+                                    <span><b>Taken Courses: </b></span>
+                                    <ul class="experience__technologies-list">
+                                        <li class="experience__technologies-item">Discrete Mathematics</li>
+                                        <li class="experience__technologies-item">Structured Programming + Lab</li>
+                                        <li class="experience__technologies-item">Algorithms Lab</li>
+                                        <li class="experience__technologies-item">Microprocessors & Microcontrollers + Lab</li>
+                                        <li class="experience__technologies-item">Computer Fundamentals & IT</li>
+                                        <li class="experience__technologies-item"> Computer Networking Lab</li>
+                                    </ul>
+                                </div>
+                                <ul class="experience__list">
+                                    <li class="experience__description">
+                                        <span class="experience__circle"></span>
+                                        <div>A member of Systems & Security Research Cell.
+                                        </div>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!--========== RESEARCH EXPERIENCE ==========-->
+                <section class="experience section" id="experience">
+                    <h2 class="section-title">Research Experience</h2>
+
+                    <div class="experience__container bd-grid">
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">A reliable system to detect security attacks in a scalable SDN architecture</h3>
+                                <span class="experience__company">Supervised by: Prof. Dr. Muhammad Mahbub Alam | Ongoing research</span>
+                                <ul class="experience__list">
+                                    <li class="experience__description">
+                                        <span class="experience__circle"></span>
+                                        <div>The goal is to develop a scalable SDN data plane verification method.
+                                        </div>
+                                    </li>
+                                    <li class="experience__description">
+                                        <span class="experience__circle"></span>
+                                        <div>Our work aims to implement an efficient mechanism to identify compromised SDN devices and specify active attacks.
+                                        </div>
+                                    </li>
+                                    <!-- <li class="experience__description">
+                                        <span class="experience__circle"></span>
+                                        <div>We are trying to solve the network scalability issue by making the verifier independent of controller performance.
+                                        </div>
+                                    </li> -->
+                                    <!-- <li class="experience__description">
+                                        <span class="experience__circle"></span>
+                                        <div>Our experiment involves both single and distributed controllers environment.
+                                        </div>
+                                    </li> -->
+                                    <li class="experience__description">
+                                        <span class="experience__circle"></span>
+                                        <div>Our current implementation is based on RYU framework on mininet network emulator.
+                                        </div>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!--========== PROFESSIONAL TRAINING ==========-->
+                <section class="experience section" id="experience">
+                    <h2 class="section-title">PROFESSIONAL TRAINING</h2>
+
+                    <div class="experience__container bd-grid">
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Certificate in Teaching and Learning</h3>
+                                <span class="experience__company">June 2021 - September 2021 | Green University of Bangladesh</span>
+                                <ul class="experience__list">
+                                    <li class="experience__description">
+                                        <span class="experience__circle"></span>
+                                        <div>Learnt Outcome Based Education (OBE) basics, Bloom Taxonomy, Tools for Questioning, Preparation of an Effective
+                                            Lesson Plan, CO & PO Mapping, Rubrics for Assessment, etc.
+                                        </div>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Industrial Training</h3>
+                                <span class="experience__company"> November 2019 - December 2019 | Beetles Cyber Security Ltd</span>
+                                <ul class="experience__list">
+                                    <!-- <li class="experience__description">
+                                        <span class="experience__circle"></span>
+                                        <div> In-house intern under the supervision of Chief Operations Officer Shahee Mirza.</div>
+                                    </li> -->
+                                    <li class="experience__description">
+                                        <span class="experience__circle"></span>
+                                        <div>Learnt different attack and defense strategies in Cyber Kill Chain Model and MITRE ATT&CK Model in depth.</div>
+                                    </li>
+                                    <li class="experience__description">
+                                        <span class="experience__circle"></span>
+                                        <div>Performed vulnerability analysis on different compromised systems using open source tools like Nmap, Metasploit,
+                                            Wireshark, Nessus, etc.</div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+
+                <!--========== CERTIFICATES ==========-->
+                <!-- <section class="certificate section" id="certificates">
+                    <h2 class="section-title">Certificates</h2>
+
+                    <div class="certificate__container bd-grid">
+                        <div class="certificate__content bd-grid">
+                            <h3 class="certificate__title">React Certificate</h3>
+                            <span class="certificate__company">Dec 2020 | HackerRank</span>
+                            <p class="certificate__description">
+                                Provide knowledge and skills required to become a successful web and mobile
+                                application developer.</p>
+                        </div>
+
+                        <div class="certificate__content bd-grid">
+                            <h3 class="certificate__title">Problem Solving Certificate</h3>
+                            <span class="certificate__company">Nov 2020 | HackerRank</span>
+                            <p class="certificate__description">
+                                Standardized assessment to help developers prove their coding skills.
+                            </p>
+                        </div>
+
+                    </div>
+                </section> -->
+
+                <!--========== REFERENCES ==========-->
+                <section class="references section" id="references">
+                    <h2 class="section-title">References</h2>
+
+                    <div class="references__container bd-grid">
+                        <div class="references__content bd-grid">
+                            <span class="references__subtitle">Sr. Director</span>
+                            <h3 class="references__title">Mr. Clay Doe</h3>
+                            <ul class="references__contact">
+                                <li>Phone: 999-777-666</li>
+                                <li>Email: user@email.com</li>
+                            </ul>
+                        </div>
+                        <div class="references__content bd-grid">
+                            <span class="references__subtitle">Mag. Developer</span>
+                            <h3 class="references__title">Mr. Clay Doe</h3>
+                            <ul class="references__contact">
+                                <li>Phone: 999-777-666</li>
+                                <li>Email: user@email.com</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <!--========== LANGUAGES ==========-->
+                <!-- <section class="languages section">
+                    <h3 class="section-title">Languages</h3>
+
+                    <div class="languages__container">
+                        <ul class="languages__content bd-grid">
+                            <li class="languages__name">
+                                <span class="languages__circle"></span> Spanish
+                            </li>
+
+                            <li class="languages__name">
+                                <span class="languages__circle"></span> English
+                            </li>
+                        </ul>
+                    </div>
+                </section> -->
+
+
+            </div>
+        </div>
+    </main>
+
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class='bx bx-up-arrow-alt scrollttop__icon'></i>
+    </a>
+
+    <!--========== HTML2PDF ==========-->
+    <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
